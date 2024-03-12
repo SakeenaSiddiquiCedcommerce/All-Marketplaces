@@ -1,0 +1,75 @@
+{
+    "product_specific" : [
+        
+        {
+            "code" : "color",
+            "default_value" : null,
+            "description" : "Color of the product to be uploaded on Good Market. If left blank woocommerce Color will be used.",
+            "description_translations" : [ ],
+            "example" : null,
+            "hierarchy_code" : "",
+            "label" : "Color",
+            "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Color"
+            } ],
+            "required" : true,
+            "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Color"
+            } ],
+            "type" : "TEXT",
+            "type_parameter" : null,
+            "values" : null,
+            "values_list" : null,
+            "variant" : false
+        },
+        {
+            "code" : "size",
+            "default_value" : null,
+            "description" : "Size of the product to be uploaded on Good Market. If left blank woocommerce Size will be used.",
+            "description_translations" : [ ],
+            "example" : null,
+            "hierarchy_code" : "",
+            "label" : "Size",
+            "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Size"
+            } ],
+            "required" : true,
+            "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Size"
+            } ],
+            "type" : "TEXT",
+            "type_parameter" : null,
+            "values" : null,
+            "values_list" : null,
+            "variant" : false
+        },
+        {
+            "code" : "type",
+            "default_value" : null,
+            "description" : "Type of the product to be uploaded on Good Market. If left blank woocommerce Type will be used.",
+            "description_translations" : [ ],
+            "example" : null,
+            "hierarchy_code" : "",
+            "label" : "Type",
+            "label_translations" : [ {
+                "locale" : "en",
+                "value" : "Type"
+            } ],
+            "required" : true,
+            "roles" : [ {
+                "parameters" : [ ],
+                "type" : "Type"
+            } ],
+            "type" : "TEXT",
+            "type_parameter" : null,
+            "values" : null,
+            "values_list" : null,
+            "variant" : false
+        }
+        
+        ]
+}

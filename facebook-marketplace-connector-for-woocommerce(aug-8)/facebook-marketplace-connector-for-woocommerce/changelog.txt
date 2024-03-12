@@ -1,0 +1,18 @@
+*** Facebook Marketplace Connector For Woocommerce Changelog ***
+
+2020-08-07 - version 1.0.3
+* Improved functionailities and bug fixes
+* Change User Interfaces and User Expereinces
+* Fixed the existing bugs 
+
+
+2020-12-21 - version 1.0.2
+* Improved functionailities and bug fixes
+* Change User Creation Process
+* Product Upload steps Reduced
+
+2020-12-21 - version 1.0.1
+* Improved functionailities and bug fixes
+
+2020-09-21 - version 1.0.0
+* Inital release

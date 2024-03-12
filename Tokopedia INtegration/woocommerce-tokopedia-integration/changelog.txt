@@ -1,0 +1,4 @@
+*** Tokopedia Integration for WooCommerce  ***
+
+2020-10-15 - version 1.0.0
+* Inital release

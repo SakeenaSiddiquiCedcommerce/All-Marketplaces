@@ -1,0 +1,67 @@
+{
+  "shipping_providers": [
+    {
+      "name": "UPS"
+    },
+    {
+      "name": "USPS"
+    },
+    {
+      "name": "FedEx"
+    },
+    {
+      "name": "DHL"
+    },
+    {
+      "name": "DHLExpress"
+    },
+    {
+      "name": "DHLGlobalMail"
+    },
+    {
+      "name": "DHL Germany"
+    },
+    {
+      "name": "Canada Post"
+    },
+    {
+      "name": "Royal Mail"
+    },
+    {
+      "name": "PostNL"
+    },
+    {
+      "name": "Australia Post"
+    },
+    {
+      "name": "EMS"
+    },
+    {
+      "name": "La Poste"
+    },
+    {
+      "name": "China Post"
+    },
+    {
+      "name": "GLS"
+    },
+    {
+      "name": "Parcelforce"
+    },
+    {
+      "name": "Purolator"
+    },
+    {
+      "name": "Interlogistica"
+    },
+    {
+      "name": "Correos España"
+    },
+    {
+      "name": "Ukraine Post"
+    },
+    {
+      "name": "Other"
+    }
+  ]
+}

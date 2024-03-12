@@ -1,0 +1,1662 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.ced-marketplaces-heading-main-wrapper, .ced_good_market_wrap.ced_good_market_wrap_extn, .ced_good_market_account_configuration_wrapper {
+  margin-top: 95px;
+}
+.ced_good_market_top_wrapper select {
+  margin: 0 10px;
+}
+.ced_good_market_top_wrapper {
+  padding: 10px 10px 10px 0;
+}
+.ced_good_market_top_wrapper select:first-child {
+  margin-left: 0;
+}
+.ced-marketplaces-heading-wrapper, .ced_good_market_setting_header {
+  background-color: #ffffff;
+  padding: 8px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.ced_goodmarket_validation_notice {
+	color: red !important;
+}
+.ced-marketplaces-heading-wrapper h2,
+.ced_good_market_setting_header  h2{
+  margin: 0 15px 0 0;
+  font-size: 20px;
+  line-height: 1.33;
+}
+.ced-marketplaces-card-view-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.navigation:after{
+  clear: both;
+  display: block;
+  content: "";
+}
+.ced-marketplace-card {
+  width: 30.33%;
+  margin-right: 3%;
+  margin-top: 30px;
+}
+.ced-marketplace-card a {
+  display: block;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  background-color: #f8f8f8;
+  text-decoration: none;
+}
+.ced-marketplace-card .thumbnail {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  padding: 20px 0;
+}
+.ced-marketplace-card .mp-label {
+  color: #333;
+  font-size: 18px;
+  padding: 15px 10px;
+}
+.ced_good_market_loader {
+  display: none;
+}
+.navigation-wrapper {
+  padding-top:2px;
+  padding-bottom:2px;
+  margin: 15px 20px 5px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  width: 98%;
+  box-shadow: 0 8px 16px 0 rgba(85,93,102,.3);
+  justify-content : left !important;
+}
+.navigation {
+  margin: 0 10px;
+  padding: unset;
+}
+.navigation li {
+  float: left;
+  margin: 0 0 0 5px;
+}
+
+.navigation li a {
+  color: black;
+  display: block;
+  padding: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.navigation li a:hover,
+.navigation li a:focus{
+  background-color: #ffffff;
+  color: #444444;
+}
+.navigation li a.active {
+  color: #2271b1;
+  border-bottom: 2px solid #2271b1;
+}
+.navigation li:first-child{
+  margin: 0 0 0 0px;
+}
+
+.ced_good_market_heading {
+  background-color: #fff;
+  margin: 45px 0px;
+  padding: 10px;
+  border-radius: 12px;
+}
+.ced_good_market_heading h2{
+  margin: 0px;
+}
+.ced_good_market_section_wrapper{
+  margin: 85px 0px 5px 0px;
+}
+.ced_good_market_section_wrapper table {
+  margin-top: 40px;
+}
+.ced_good_market_table {
+  padding: 15px 10px;
+}
+.ced_good_market_heading.ced_good_market_parent_element {
+  margin-top: 40px;
+}
+.wp-list-table.widefat.stripped.fixed select {
+  width: 100%;
+  padding: 5px;
+}
+
+.ced_good_market_section_wrapper table tbody tr td label,
+.ced_good_market_section_wrapper table tbody tr th label{
+  font-weight: bold;
+}
+.ced_good_market_section_wrapper table tbody tr td input[type="text"]{
+  width: 90%;
+}
+.ced_good_market_api_key_instruction{
+  position: relative;
+  top: 10px;
+  bottom: 5px;
+  display: inline-flex;
+}
+
+#ced_good_market_notices div.notice{
+  margin: 10px auto;
+  padding: 0px 10px;
+}
+#ced_good_market_update_api_keys,
+#ced_good_market_validate_api_keys {
+  margin: 5px;
+}
+.ced_good_market_parent_element{
+  cursor: pointer;
+}
+.ced_good_market_child_element{
+  display: none;
+}
+.dashicons-arrow-up-alt2::before{
+  content: "\f142";
+}
+.dashicons-arrow-down-alt2::before{
+  content: "\f140";
+}
+
+.ced_good_market_global_field_header ul {
+  display: flex;
+}
+.ced_good_market_global_field_header ul li a{
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0px 10px 0px 0px;
+}
+.ced_good_market_global_field_header ul li a.active{
+  color: black
+}
+.ced_good_market_global_sub_wrap {
+  width: 98%;
+}
+.ced_good_market_global_sub_wrap, .ced_good_market_global_tab_list_wrap {
+  background-color: #fff;
+  border-radius: 12px;
+}
+.ced_good_market_global_tab_list_content table tbody th {
+  text-align: center;
+  background-color: #0073aa;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+  margin: 10px;
+  border-right: 1px solid #ccc;
+}
+.ced_good_market_global_tab_list_content label {
+  font-weight: bold;
+  line-height: 30px;
+}
+.ced_good_market_global_tab_list_content label span {
+  color: red;
+}
+.ced_good_market_custom_button {
+  margin: 5px auto !important;
+}
+.ced_good_market_global_tab_list_wrap {
+  display: flex;
+  padding: 0px;
+}
+
+div.ced_tab_labels {
+  border-right: 1px solid #ccc;
+}
+div.ced_good_market_global_tab_list {
+  border: 1px solid #cccccc;
+  padding: 5px 5px 5px 14px;
+  font-weight: bold;
+  margin: 10px 10px 0px 0px;
+  background-color: #eeeeee;
+  color: #555555;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.ced_good_market_store_category select {
+  width: 100%;
+}
+.ced_good_market_store_category_name {
+  line-height: 45px;
+}
+div.ced_tab_labels {
+  width: 20%;
+  min-height: 300px;
+}
+/*div.ced_tab_content {
+  width: 80%;
+}*/
+.ced_good_market_global_tab_list_content div.active {
+  color: #fff;
+  background-color: #2271b1;
+}
+.ced_good_market_global_tab_list_content table {
+  border: none;
+}
+#key_features table tbody td input {
+  margin-bottom: 20px;
+}
+.ced_good_market_categories{
+  display: none;
+}
+.ced_good_market_parent_element label {
+  text-transform: uppercase;
+  color: #555555;
+}
+.ced_good_market_profile_details_fields {
+  overflow-y: auto;
+}
+.ced_good_market_profile_details_fields table {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 15px auto;
+  table-layout: fixed;
+}
+.ced_good_market_profile_details_fields table td,
+.ced_good_market_profile_details_fields table th {
+  padding: 10px;
+}
+.ced_good_market_profile_heading {
+  text-align: left;
+  background-color: #0073aa;
+  color: #fff;
+  display: inline-block;
+  margin: 10px;
+}
+.ced_good_market_profile_details_fields table td input[type="text"],
+.ced_good_market_profile_details_fields table td select {
+  padding: 5px;
+  border: 1px solid #ddd;
+  height: auto;
+  width: 90%;
+}
+.ced_good_market_profile_details_fields table td input[type="text"] {
+  padding: 0px 0px 0px 5px;
+}
+.ced_good_market_wal_required {
+  color: #fb0606;
+}
+.ced_good_market_profile_details_fields table td label {
+  font-weight: bold;
+}
+.ced_good_market_profile_details_wrapper {
+  padding-right: 20px;
+}
+.ced_good_market_settings_heading {
+  text-align: left;
+  background-color: #0073aa;
+  color: #fff !important;
+  display: inline-block;
+  margin: 10px;
+}
+.ced_good_market_profile_details_fields table.wp-list-table tbody tr td:first-child{
+  display: none;
+}
+.Required {
+  color: red;
+}
+.Optional {
+  color: skyblue;
+}
+.Recommended {
+  color: green;
+}
+.ConditionallyRequired {
+  color: orange;
+}
+.ced_good_market_preview_product_popup_main_wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform: translateY(-100%);
+  visibility: hidden;
+  transition: 0.3s linear all;
+  color: #666666;
+
+}
+.ced_good_market_preview_product_popup_main_wrapper.show {
+  transform: translateY(0);
+  visibility: visible;
+  transition: 0.3s linear all;
+}
+
+.ced_good_market_add_account_popup_content {
+  max-width: 700px;
+  text-align: center;
+  background-color: #fff;
+  overflow: scroll;
+  width: 100%;
+  height: 600px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.ced_good_market_loader {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.52);
+  width: 100%;
+  z-index: 9999;
+  height: 108%;
+}
+.ced_good_market_loader img {
+  text-align: center;
+  margin: 0 auto;
+  width: 50px;
+  display: block;
+  margin-top: 25%;
+}
+
+.ced_good_market_loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/***********Product Preview CSS************************/
+
+.pro-small-img-list {
+  list-style: none;
+}
+.pro-large-img img {
+  width: 100%;
+}
+.image-variable-item img {
+  width: 100px;
+  height: 100px;
+}
+.pro-desc h2 {
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.pro-desc p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.pro-star i {
+  color: black;
+  font-size: 12px;
+}
+.pro-star span {
+  margin-left: 15px;
+  font-size: 14px;
+}
+p.pro-price {
+  font-size: 22px;
+}
+p.qty-drpdwn {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.qty-drpdwn select {
+  border: 1px solid;
+  /* border-bottom: 2px solid; */
+  margin-left: 20px;
+}
+.add-to-cart-btn button {
+  background-color: #0065ff;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+.pro-desc-detail h2 {
+  font-size: 26px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+.pro-desc-detail p {
+  font-size: 14px;
+}
+.pro-info-wrapper h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+td.table-desc-title {
+  padding: 15px 0px 15px 10px;
+  font-size: 14px;
+  width: 30%;
+}
+td.table-desc-content {
+  font-size: 14px;
+  padding-left: 10px;
+}
+.pro-spec-table tbody tr:nth-child(odd) {
+  background-color: rgba(148,148,153,.1);
+}
+.pro-tags p {
+  display: inline-block;
+  margin-right: 10px;
+}
+.add-ons h2 {
+  display: inline-block;
+  margin-right: 20px;
+}
+.add-ons p {
+  display: inline-block;
+  margin-right: 20px;
+}
+.pro-add-to-cart .add-to-cart-btn, .pro-quantity {
+  display: inline-block !important;
+}
+.pro-add-ons {
+  margin: 15px 0;
+  border: 1px solid #ccc;
+}
+.add-ons {
+  border-left: 4px solid rgb(25, 161, 196);
+  padding: 11px 15px 0 15px;
+}
+.add-ons h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+p.add-on-view-option {
+  text-decoration: underline;
+}
+.add-on-services {
+  border-left: 4px solid rgb(25, 161, 196);
+  padding: 0 15px;
+}
+.pro-add-to-cart {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.free-delivery {
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+}
+.delivery-title i {
+  font-size: 12px;
+  padding-right: 5px;
+}
+.delivery-title h2 {
+  display: inline-block;
+  font-size: 16px;
+}
+.more-delivery-option {
+  border-bottom: 1px solid #ccc;
+}
+.more-delivery-option p {
+  padding: 15px 0 8px 0;
+  margin-bottom: 0px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.ship-return {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+.sold-shipped {
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+.sold-shipped i {
+  font-size: 12px;
+  padding-right: 10px;
+}
+.return-policy {
+  display: inline-block;
+  padding-left: 20px;
+}
+.return-policy i {
+  padding-right: 10px;
+}
+.add-on-services p {
+  display: inline-block;
+}
+p.protection-plans {
+  border-right: 1px solid #ccc;
+  padding-right: 15px;
+}
+p.expert-help {
+  padding-left: 10px;
+}
+
+
+/***********Product Preview CSS ends****************/
+
+.product-title {
+  font-size: 15px;
+}
+
+.product-category-name {
+  font-size: 12px;
+}
+.good_market-cool , .UseForVariation{
+ color: #0073aa !important;
+}
+.good_market-success , .PUBLISHED , .instock{
+  color: #7ad03a !important;
+}
+.good_market-error , .UNPUBLISHED , .outofstock{
+  color: #a44 !important;
+}
+.good_market-warning,.SYSTEM_PROBLEM {
+  color:#fc7b03 !important;
+}
+.ced_good_market_profile_table {
+  margin-bottom: 0px !important;
+}
+.ced_good_market_profile_table input[type="number"] {
+  width: 90% !important;
+  border: 1px solid #ccc !important;
+}
+.div_foot {
+  padding: 10px;
+  border : 1px solid #ccc;
+  border-top: none;
+}
+.ced_good_market_child_element table {
+  margin-top: 15px;
+}
+.ced_good_market_wrapper {
+  display: flex;
+  align-items: center;
+}
+.ced-good_market-global-wrap-wrapper h2 {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+.ced-good_market-discription-wrap {
+  padding: 0 29px !important;
+}
+#ced_good_market_search_product_name {
+  width: 60%;
+}
+.ced-good_market-search-product-list {
+  position: absolute;
+  width: 37%;
+  display: none;
+  max-height: 200px;
+  overflow: scroll;
+  margin: 0px;
+  overflow-x: auto;
+  overflow-y: scroll;
+  scrollbar-width :none;
+  border : 1px solid #ccc;
+}
+.ced-good_market-search-product-list li {
+  padding: 5px;
+  margin: 0px;
+  color: #000000;
+  cursor: pointer;
+}
+.ced-good_market-search-product-list li:nth-child(odd) {
+  background-color: #ccc;
+}
+.ced-good_market-search-product-list li:nth-child(even) {
+  background-color: #fff;
+}
+.ced_good_market_error_data {
+  position: absolute;
+  right: 150px;
+  background: #eee;
+  padding: 10px;
+  max-height: 150px;
+  max-width: 350px;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  border-radius: 5px;
+  display: none;
+  border: 1px solid;
+}
+#good_market_inventory_options_variable,
+.good_market_inventory_options_simple {
+  width: 100% !important;
+
+}
+.ced_good_market_variation_product_level_wrap {
+  border: 1px solid #7e8993;
+  width: 95%;
+  padding: 15px;
+  border-radius: 5px;
+}
+.ced_good_market_variation_product_level_wrap h2 ,
+.ced_good_market_simple_product_level_wrap h2 {
+  border: 1px solid #7e8993;
+  border-radius: 5px;
+}
+#return-adress span.select2 {
+  width: 90% !important;
+}
+.ced_good_market_variation_product_content ,
+.ced_good_market_simple_product_content {
+  max-height: 350px;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  border-radius: 5px;
+}
+.ced_good_market_simple_product_level_wrap {
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.ced_good_market_error_data ul {
+  list-style: symbols !important;
+  margin-left: 15px !important;
+}
+.ced_good_market_product_error {
+  cursor: pointer;
+}
+
+.ced_good_market_pagination span,
+.ced_good_market_pagination button{
+  margin-right: 5px !important;
+}
+td.ced_good_market_category_selection_list span.select2 {
+  width: 100% !important;
+}
+td#ced_good_market_environment_select span.select2 {
+  width: 90% !important;
+}
+div.ced_tab_content tr span.select2 {
+  width: 95% !important;
+}
+div#ced_good_market_per_page span.select2 {
+  margin-top: 5px;
+  width: 17% !important;
+}
+div.ced_good_market_top_wrapper span.select2 {
+  margin:0px 5px 0px 0px !important;
+}
+div.ced_good_market_child_element ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+ul.ced-good_market-search-product-list {
+  margin-left: 0px !important;
+  list-style: none;
+}
+
+.ced_good_market_product_error {
+  margin: 15px 0px 0px 20px;
+}
+
+.ced_shipping_type {
+  display: block;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 10px;
+  text-align: center;
+  background: #007cba;
+  border-color: #007cba;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 2.15384615;
+  min-height: 30px;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#ced_shipping_types{
+  display: none;
+  float: right;
+  clear: both;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  background-color: #fff;
+  padding: 10px 16px;
+  box-shadow: 0px 2px 10px 0px #00000040;
+  text-align: center;
+}
+.ced_shipping_type:hover {
+  color: white;
+}
+
+
+.ced_tab{
+  overflow: hidden;
+  padding-right:20px;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 200%;
+}
+
+
+.ced_tab button {
+  background-color: #f1f1f1;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.ced_tab button:hover {
+  background-color:#fff;
+  color: black;
+}
+
+
+.ced_tab button.active {
+  background-color:#007cba;
+  color: #fff;
+}
+
+
+.ced_tabcontent {
+  display: none;
+  width: 200%;
+}
+
+.ced_remove_style{
+  background: red;
+  border-color: #2271b1;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2.15384615;
+  min-height: 30px;
+  margin-top:5px ;
+  margin-left:50%;
+  padding: 0 10px;
+  cursor: pointer;
+  border-width: 1px;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 5px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  display: none;
+}
+
+
+
+.shipping_save_button_style {
+  display: block;
+  margin-top: 10px;
+  background: #007cba;
+  border-color: #007cba;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2.15384615;
+  border-radius: 4px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px 10px;
+}
+
+#ced_Value {
+  display: block;
+}
+
+#wpcontent {
+  background-color: #f0f0f1;
+}
+
+
+.ced_overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.ced_overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.ced_popup {
+  margin: 8% auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  height: 70vh;
+  overflow: scroll;
+}
+.ced_popup .ced_close  {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+
+.ced_popup .ced_content {
+  flex-basis: 50%;
+}
+
+
+#ced_extra_attr_style{
+  color:maroon;
+}
+
+#ced_good_market_variation_style{
+  color:green;
+}
+.ced_shipping_template_wrapper {
+  position: relative;
+}
+
+#ced_good_market_create_shipping_template {
+  min-height: 28px !important;
+  line-height: 28px !important;
+  float: right;
+}
+.ced_subRegions,.ced_subRegions_2day  {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.ced_subRegions>li,.ced_subRegions_2day>li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.ced_states,.ced_states_2day  {
+  flex-basis: 70%;
+}
+
+#ced_state_show,#ced_state_2day_show{
+  color: #0073AA;
+}
+
+.ced_states>li,.ced_states_2day>li {
+  position: relative;
+  float: left;
+  width: 14em;
+}
+.ced_substates,.ced_substates_2day {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 9;
+  box-shadow: 0px 2px 10px 0px #0000001c;
+  padding: 10px 15px;
+}
+
+.ced_substates,.ced_substates_2day li {
+  margin-bottom: 10px;
+}
+.ced_substates,.ced_substates_2day li:last-child {
+  margin-bottom: 0px !important;
+}
+.ced_substates,.ced_substates_2day li label {
+  word-break: break-all;
+}
+
+.ced_menu_content, .ced_menu_button {
+  background: slateblue;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  width: 60px;
+  height: 60px;
+  margin-left: -40px;
+  position: absolute;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 60px;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform ease-out 200ms;
+  transition: -webkit-transform ease-out 200ms;
+  transition: transform ease-out 200ms;
+  transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+  cursor: pointer !important;
+}
+.ced_menu_open {
+  display: none;
+}
+.ced_contact_menu_wrap {
+  margin: auto;
+  position: fixed;
+  bottom: 6px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 26px;
+  z-index: 99999;
+}
+.ced_menu_content:hover {
+  background: #EEEEEE;
+  color: #3290B1;
+}
+.ced_menu_content:nth-child(3) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+}
+.ced_menu_content:nth-child(4) {
+  -webkit-transition-duration: 180ms;
+  transition-duration: 180ms;
+}
+.ced_menu_button {
+  z-index: 2;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+  -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+}
+.ced_menu_open:checked ~ .ced_menu_content:nth-child(3) {
+  transition-duration: 180ms;
+  -webkit-transition-duration: 180ms;
+  -webkit-transform: translate3d(80px, 104.99997px, 0);
+  transform: translate3d(-13px, -100px, 0);
+}
+.ced_menu_open:checked ~ .ced_menu_content:nth-child(4) {
+  transition-duration: 280ms;
+  -webkit-transition-duration: 280ms;
+  -webkit-transform: translate3d(-90.9466px, -52.47586px, 0);
+  transform: translate3d(-101.053px, -30.524px, 0);
+}
+.ced_skype {
+  background-color: #0073aa;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+.ced_skype:hover {
+  color: #669AE1;
+  text-shadow: none;
+}
+.ced_whatsapp {
+  background-color: green;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+.ced_whatsapp:hover {
+  color: #70CC72;
+  text-shadow: none;
+}
+.ced_menu_button img {
+  margin-top: 7px;
+}
+
+/*
+Insights CSS*/
+
+.pro-card-p {
+  font-size: 16px;
+  line-height: 0.5;
+  margin: 1em 0;
+}
+
+.bg-lighten-xl{
+  color: #2a333a;
+  background-color: #edf6fb;
+  padding: 11px 13px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.progress-circle {
+  width: 120px;
+  height: 120px;
+  margin: 0px 29px;
+  background: none;
+  position: relative;
+}
+
+.progress-circle::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress-circle>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress-circle .progress-circle-left {
+  left: 0;
+}
+
+.progress-circle .progress-circle-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress-circle .progress-circle-left .progress-circle-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress-circle .progress-circle-right {
+  right: 0;
+}
+
+.progress-circle .progress-circle-right .progress-circle-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+
+.progress-circle .progress-circle-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/*for product level quality css
+*/
+
+.product-progress-circle{
+  width: 90px;
+  height: 90px;
+  margin: 0px 155px;
+  background: none;
+  position: relative;
+}
+
+.product-progress-circle::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-progress-circle>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.product-progress-circle .product-progress-circle-left {
+  left: 0;
+}
+
+.product-progress-circle .product-progress-circle-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.product-progress-circle .product-progress-circle-left .product-progress-circle-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.product-progress-circle .product-progress-circle-right {
+  right: 0;
+}
+
+.product-progress-circle .product-progress-circle-right .product-progress-circle-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+
+.product-progress-circle .product-progress-circle-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.ced-product-modal-lg {
+  max-width: 75% !important;
+  max-height: 80%;
+  position: fixed;
+  left: 12%;
+  right: 12%;
+  z-index: 99 !important;
+  top: 5%;
+}
+.score_container_bg{
+  background-color: rgba(59, 130, 246, 0.5);
+}
+
+#ced_good_market_notices ~ .navigation-wrapper {
+  position: fixed;
+  top: 17px;
+  padding: 15px;
+  box-shadow: 0 8px 16px 0 rgba(85,93,102,.3);
+  z-index: 9;
+  / left: 11%; /
+  width: calc(100% - 100px ) !important;
+  box-sizing: unset !important;
+  border-radius: 10px;
+}
+
+#ced_good_market_per_page select {
+  width: 200px;
+  padding: 2px;
+}
+#ced_good_market_per_page{
+text-align: right;
+margin-right: 10px;
+}
+
+.ced_good_market_parent_element h2 {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 4px;
+  transition: 0.3s all;
+}
+
+.ced_good_market_child_element {
+  border-top: 1px solid #ccc;
+  padding: 5px;
+}
+
+.ced_good_market_body {
+  margin-top: 6%;
+  width: 99%;
+}
+.insight_info{
+  display: none;
+}
+.ced_good_market_section_wrapper table tbody tr td input[type="text"] {
+  width: 100%;
+}
+.ced_good_market_return_address.wp-list-table.widefat.fixed.striped.activityfeeds.ced_good_market_table textarea {
+  width: 100%;
+}
+.ced_good_market_return_address.wp-list-table.widefat.fixed.striped.activityfeeds.ced_good_market_table input {
+  width: 100%;
+  padding: 5px;
+}
+#ced_good_market_environment_select select {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.card-body {
+  text-align: center;
+  min-height: 200px;
+}
+.card-body img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+.card {
+  position: relative;
+  padding: 0 !important;
+  width: 89% !important;
+  margin: 0 auto !important;
+  margin-top: 40px !important;
+}
+.pro-card-p {
+  font-size: 16px;
+  line-height: 26px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.row.ced-card-wrap-wrapper {
+  display: flex;
+  align-items: center;
+}
+.ced-button-wrap {
+  margin-top: 25px;
+}
+button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+.ced_good_market_parent_element h2 {
+  background: #fff !important;
+}
+.ced_good_market_heading ~ .ced_good_market_wrap.ced_good_market_wrap_extn {
+  margin-top: 30px !important;
+}
+.ced-div-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.ced_good_market_heading ~ .ced_good_market_wrap.ced_good_market_wrap_extn {
+  margin-top: 20px !important;
+}
+
+
+.ced_good_market_parent_element label {
+   text-transform: uppercase;
+   color: currentColor;
+  font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .ced_good_market_section_wrapper table tbody tr td input[type="text"]{
+   width: 100%;
+ }
+}
+@media only screen and (max-width: 991px){
+  .pro-img {
+   display: none;
+ }
+}
+
+.update-nag.notice.notice-warning.inline {
+  display: none;
+}
+
+.default_modal {
+  display: block;
+}
+
+.vhr {
+  border-left: 2px solid #ccc;
+  margin: 0px 5px;
+}
+
+.ced_good_market_document {
+  position: absolute;
+  right: 20px;
+}
+
+.ced_good_market_document_link {
+  background-color: darkviolet;
+  border: 1px solid transparent;
+  padding: 9px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.ced_good_market_document_link:hover{
+  color: #fff;
+  opacity: 0.9;
+}
+
+.ced_good_market_instruction_list {
+  margin: 0px 10px !important;
+  padding: 0px 8px !important;
+  list-style-type: disc;
+}
+
+.wp-list-table,#ced_good_market_general_profile_details {
+  border: none !important;
+  border-radius: 12px;
+}
+
+select , input[type="text"]{
+  border: 1px solid #ddd;
+}
+
+.cedcommerce-tip {
+  font-size: 12px;
+  color: darkcyan;
+}
+.cedcommerce-tip a {
+  text-decoration: underline;
+  font-weight: 407;
+  font-style: italic;
+}
+
+.good_market-button-wrap{
+  margin: 10px auto;
+}
+
+.ced_good_market_global_fields_mapping {
+  /*max-height: 500px;*/
+  /*min-height: 500px;*/
+  overflow: scroll;
+}
+
+
+@media screen and (max-width: 767px){
+  .navigation{
+   border-bottom: none;
+ }
+ .navigation li{
+   margin-top: 6px;
+ }
+ .navigation li a{
+   border-width: 1px 1px 1px 1px;
+ }
+ .ced-marketplaces-heading-wrapper h2, .ced_good_market_setting_header h2{
+   font-size: 16px;
+ }
+ .ced_good_market_account_configuration_fields_table select{
+   width: 120px;
+   font-size: 13px !important;
+   min-width: 120px;
+ }
+ .ced-marketplace-card{
+   width: 100%;
+   margin-right: 0;
+ }
+ .ced-marketplaces-heading-main-wrapper, .ced_good_market_wrap.ced_good_market_wrap_extn, .ced_good_market_account_configuration_wrapper{
+   padding-right: 10px;
+ }
+ .ced-marketplaces-card-view-wrapper{
+   padding-right: 10px;
+ }
+ .ced_good_market_add_account_popup_close{
+   top: 2px;
+   right: 15px;
+ }
+ .navigation-wrapper, .cedcommerce-top-border {
+  width: calc(100% - 188px);
+}
+.navigation-wrapper .navigation {
+  width: 75%;
+  overflow: scroll;
+  display: flex;
+}
+}
+@media screen and (max-width: 1191px) {
+  #ced_good_market_preview{
+  display: none;
+  }
+  .navigation-wrapper, .cedcommerce-top-border {
+  width: calc(100% - 78px) !important;
+}
+.ced_good_market_document, .ced_good_market_add_account_button {
+  position: absolute;
+  right: 7px;
+}
+.navigation-wrapper .navigation {
+  width: 75%;
+  overflow: scroll;
+  display: flex;
+}
+.ced_good_market_bulk_actions {
+  display: flex;
+}
+.tablenav-pages.one-page {
+  display: none;
+}
+.search-box input {
+  width: 100px !important;
+}
+.ced_good_market_top_wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  content: '';
+}
+.ced_good_market_filter_label {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px 15px;
+  width: 50px;
+}
+.ced_good_market_filter_label {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0px 15px;
+  width: auto;
+}
+.ced_good_market_top_wrapper #filter_button {
+  margin: 0;
+  margin-left: 12px;
+}
+.ced_good_market_filter_label {
+  width: auto;
+}
+p.search-box {
+  float: right;
+  margin: 0;
+  float: none;
+  position: absolute;
+  top: 60px;
+  margin: 0 10px;
+}
+.ced_good_market_wrap {
+  width: 100%;
+  margin: 10px auto;
+  min-height: 100px;
+  background: #fff;
+}
+.search-box input {
+  width: auto !important;
+}
+.select_boxes_product_page {
+  border: 1px solid #ddd;
+  height: auto !important;
+  width: auto;
+}
+.ced_good_market_heading {
+  background-color: #fff;
+  margin: 55px 0px;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+}
+.msg_dis_sucess {
+  text-transform: capitalize;
+  color: green;
+  font-weight: bold;
+  font-size: 15px;
+}
+.msg_dis_error {
+  text-transform: capitalize;
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+}
+.ced_good_market_required_data{
+  width: 30% !important;
+}
+.good_market_feeds_no_error {
+  background: #1d2327;
+  padding: 10px 100px;
+  width: fit-content;
+  color: white;
+  font-size: 18px;
+}
+.ced_goodmarket_global_attribute_mapping {
+  padding: 20px;
+  font-size: 13px;
+}
+.ced_good_market_global_tab_list_content.ced_tab_labels {
+  display: none;
+}
+.ced_good_market_remove_filter_icon {
+  vertical-align: bottom;
+  margin-left: 7px;
+}
+#filter_button {
+  vertical-align: middle !important;
+}
+.ced_good_market_notices_content {
+  position: relative;
+}
+.ced_good_market_notices_content .ced_goodmarket_remove_notice {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 15px;
+  cursor: pointer;
+  color: #787c82;
+  background: 0 0;
+}
+.ced_good_remove_filter_url:focus {
+	box-shadow: none;
+}
+.ced_good_market_global_field_wrapper {
+  margin-top: 100px !important;
+}
+@media screen and (max-width : 1550px) {
+  .search-box{
+    margin-top: 10px !important;
+  }
+  #ced_good_market_per_page{
+    text-align: left;
+  }
+}
+@media screen and (max-width : 1200px) {
+  .search-box{
+    top: 45px !important;
+    margin: 0 235px !important ;
+  }
+}

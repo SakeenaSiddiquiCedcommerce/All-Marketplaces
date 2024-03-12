@@ -1,0 +1,296 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .ced-pricing-card-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	column-gap: 30px;
+
+  }
+
+  .ced-pricing-content {
+	text-align: center;
+  }
+
+  .ced-pricing-select-button {
+	text-align: center;
+  }
+
+
+  .ced-pricing-select {
+	margin-top: 40px;
+  }
+
+  span.ced-price-value {
+	font-size: 68px;
+  }
+
+  .ced-pricing-plan-select-common {
+	display: flex;
+	align-items: center;
+  }
+
+  .ced-pricing-content h4{
+	margin-top: 45px;
+  }
+
+  .ced-pricing-select-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	padding: 0 50px;
+	margin-bottom: 60px;
+  }
+
+  .ced-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+	column-gap: 20px;
+  }
+
+  .ced-flex a {
+	width: 45%;
+  }
+
+  .ced-pricing-card-holder {
+	width: 65%;
+	margin: 0 auto;
+  }
+
+  .ced-pricing-content {
+	text-align: center;
+  }
+
+  .ced-pricing-list-text {
+	  height: 60px;
+	  text-align: center;
+  }
+
+  .ced-pricing-list-text ol {
+	  padding: 0;
+	  margin-left: 0 !important;
+  }
+
+  .ced-pricing-list-text ol li {
+	  list-style-type: none;
+	  margin-bottom: 18px;
+  }
+
+  .ced-pricing-list-text {
+	  margin-top: 40px;
+  }
+
+  .ced-pricing-select-button {
+	text-align: center;
+  }
+
+  .ced-pricing-content h3 {
+	margin: 0;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 20px;
+	font-size: 22px;
+  }
+
+  .ced-stripe-container {
+	width: 8rem;
+	display: inline-block;
+	height: 8rem;
+	top: -50px;
+	position: relative;
+	left: -8.3vw;
+  }
+
+  .ced-stripe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(315deg, transparent 50%, #2271b1 52%, #2271b1 70%, transparent 40%);
+  }
+
+  .ced-stripe-active-tag {
+	transform: rotate(315deg);
+	left: 20%;
+	position: absolute;
+	padding-left: -21px;
+	font-size: 15px;
+	color: #fff;
+	top: 30%;
+  }
+
+  .ced-pricing-list-importnat {
+	text-align: right;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 12px;
+  }
+
+
+  .ced_amazon_end_billing_date,
+  .ced_amazon_next_billing_date {
+
+	  background: #2c3338;
+	  color: aliceblue;
+	  margin-bottom: 31px;
+	  padding: 5px 9px;
+	  border-radius: 15px;
+
+  }
+
+  .ced-pricing-select-button a {
+	cursor: pointer;
+	background: #007cba;
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 15px;
+	font-size: 16px;
+	display: inline-flex;
+	border: 0;
+	align-items: center;
+	font-weight: 400;
+	transition: box-shadow .1s linear;
+	/* height: 40px; */
+	text-align: center;
+	justify-content: center;
+	border-radius: 4px;
+  }
+
+  .ced-pricing-list-importnat span {
+	font-size: 10px;
+	text-align: right;
+  }
+
+  .ced-pricing-card {
+	padding: 50px;
+	width: 36%;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	border-radius: 8px;
+  }
+
+  .ced-pricing-content h4 {
+	margin-bottom: 0;
+  }
+
+
+  .ced-pricing-card-wrapper.ced-center {
+	justify-content: center;
+  }
+
+  .ced-center {
+	text-align: center;
+  }
+
+
+  #free_trial_notice {
+	width: 350px;
+	margin: 30px auto;
+	font-style: italic;
+  }
+
+
+  .ced_subscription_warning {
+
+	background-color: #e8e8e8 !important;
+	margin: 7rem auto;
+	align-items: center;
+	padding: 2rem;
+	text-align: center;
+	box-shadow: 0 2px 6px 0 rgba(67, 89, 113, 0.12);
+	width: 600px;
+	border: 0 solid #d9dee3;
+	background: #fff;
+	border-radius: 5px;
+
+  }
+
+  .switch-wrapper-container {
+	text-align: center;
+	height: 50px;
+	margin-bottom: 40px;
+  }
+
+  .switch-wrapper {
+	position: relative;
+	display: inline-flex;
+	padding: 4px;
+	border: 1px solid lightgrey;
+	border-radius: 30px;
+	background: var(--white);
+	margin: 10px auto;
+  }
+
+  .switch-wrapper [type="radio"] {
+	position: absolute;
+	left: -9999px;
+  }
+
+  .switch-wrapper [type="radio"]:checked#monthly~label[for="monthly"],
+  .switch-wrapper [type="radio"]:checked#yearly~label[for="yearly"] {
+	color: white;
+  }
+
+  .switch-wrapper [type="radio"]:checked#monthly~label[for="monthly"]:hover,
+  .switch-wrapper [type="radio"]:checked#yearly~label[for="yearly"]:hover {
+	background: transparent;
+  }
+
+  .switch-wrapper [type="radio"]:checked#monthly+label[for="yearly"]~.highlighter {
+	transform: none;
+  }
+
+  .switch-wrapper [type="radio"]:checked#yearly+label[for="monthly"]~.highlighter {
+	transform: translateX(100%);
+  }
+
+  .switch-wrapper label {
+	font-size: 16px;
+	z-index: 1;
+	min-width: 67px;
+	line-height: 32px;
+	cursor: pointer;
+	padding: 0px 2px;
+	border-radius: 30px;
+	transition: color 0.25s ease-in-out;
+  }
+
+  .switch-wrapper .highlighter {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: calc(50% - 4px);
+	height: calc(100% - 8px);
+	border-radius: 30px;
+	background: #2271b1;
+	transition: transform 0.25s ease-in-out;
+  }
+
+
+  .ced_pending_checkout_container{
+	margin-bottom: 40px;
+  }
+
+  .ced-marketplaces-names {
+	display: inline;
+	padding:30px 65px;
+}
+  .ced-error {
+	  background: #fff;
+	  border: 1px solid #c3c4c7;
+	  border-left-color: rgb(195, 196, 199);
+	  border-left-width: 1px;
+	  border-left-width: 4px;
+	  box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+	  margin-top: 15px;
+	  padding: 1px 12px;
+	  border-left-color: #FF3333;
+  }
+#ced_mcbc_pricing_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

@@ -1,0 +1,363 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .ced-marketplaces-card-view-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  margin: 0 auto;
+ }
+ .navigation:after{
+  clear: both;
+  display: block;
+  content: "";
+ }
+ .ced-marketplace-card {
+  width: 30.33%;
+  margin-right: 3%;
+  margin-top: 30px;
+ }
+ .ced-marketplace-card a {
+  display: block;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  background-color: #f8f8f8;
+  text-decoration: none;
+ }
+ .ced-marketplace-card .thumbnail {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  display: block;
+  padding: 20px 0;
+ }
+ .ced-marketplace-card .mp-label {
+  color: #333;
+  font-size: 18px;
+  padding: 15px 10px;
+ }
+ 
+ .ced-vidaxl-header{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    padding: 13px 15px;
+    border-bottom: 1px solid #acb2b7;
+    background: #fff;
+    flex-flow: row wrap;
+}
+.ced-vidaxl-header .cedcommerce-logo-div {
+    position: relative;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+.ced-vidaxl-header .cedcommerce-logo-div .cedcommerce-logo{
+    max-width: 100%;
+    height: 50px;
+}
+
+.ced-vidaxl-header .cedcommerce-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 12px auto 0 0;
+}
+
+/*Tabs*/
+.ced-vidaxl-navigation-wrapper {
+    padding: 0px 0px;
+    margin: 15px 20px 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b4bcc3;
+}
+.ced-vidaxl-navigation:after{
+    clear: both;
+    display: block;
+    content: "";
+   }
+.ced-vidaxl-navigation {
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+  }
+  .ced-vidaxl-navigation li {
+    float: left;
+    margin: 0;
+  }
+  .ced-vidaxl-navigation li a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #57575e;
+    display: block;
+    padding: 12px 12px;
+    text-decoration: none;
+    background-color: #eeeeee;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    border-color: #ccc;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .ced-vidaxl-navigation li a:hover,
+  .ced-vidaxl-navigation li a:focus{
+    background-color: #ffffff;
+    color: #444444;
+  }
+  .ced-vidaxl-navigation li a.active
+  {
+    background-color: #0073aa;
+    color: #fff;
+  }
+.ced-vidaxl-container{
+    position: relative;
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 20px 20px 10px 0;
+    border: 1px solid rgb(202, 202, 207);
+    box-shadow: 0 1px 2px 0 rgb(146 150 153);
+}
+
+.ced-vidaxl-form-elements{
+    width: 100%;
+    padding: 12px 10px !important;
+    line-height: 20px !important;
+    border: 1px solid rgb(0 4 6 / 15%) !important;
+    font-size: 16px !important;
+}
+
+.ced-vidaxl-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.ced-vidaxl-checkbox input { 
+opacity: 0;
+width: 0;
+height: 0;
+}  
+.ced-vidaxl-slide {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+  
+.ced-vidaxl-slide:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .ced-vidaxl-slide {
+background-color: #0073aa;
+}
+
+input:focus + .ced-vidaxl-slide {
+box-shadow: 0 0 1px #0073aa;
+}
+
+input:checked + .ced-vidaxl-slide:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+p.ced-vidaxl-form-desc{
+    color:#9d8c8c;
+}
+
+.ced-vidaxl-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    vertical-align:middle
+  }
+  
+  .ced-vidaxl-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .ced-vidaxl-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .ced-vidaxl-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .ced-vidaxl-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .notice-success p{
+      font-weight: 600;
+  }
+  .ced-vidaxl-button:disabled{
+    border: 1px solid #d3d3d3;
+    background-color: #f3e4e4;
+    color: #c5b6b6;
+    pointer-events:none;
+  }
+  
+ /* Import Products Step-by-Step CSS */
+
+  #ced-vidaxl-steps-frame {
+    max-width: 90%;
+    margin: 40px auto;
+    border: 1px solid #dee1e3;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  #ced-vidaxl-steps-frame ul {
+    padding-left: 0;
+  }
+  #ced-vidaxl-steps-frame li {
+    list-style: none;
+  } 
+ 
+  .ced-vidaxl-progress-wrap {
+      margin: auto;
+      display: table;
+  }
+  .ced-vidaxl-line-progress-show {
+      display: flex;
+      margin: auto;
+      width: 100%;
+  }
+  .ced-vidaxl-straight-line {
+      height: 1px;
+      width: 190px;
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+      border-bottom-color:  rgb(225 219 233);
+      position: absolute;
+      margin-top: 8px;
+  }
+  .ced-vidaxl-progress-wrap div ul {
+      display: flex;
+      width: 190px;
+      list-style: none;
+      padding: 0px;
+      margin: initial;
+      justify-content: space-between;
+      z-index: 1;
+  }
+  .ced-vidaxl-progress-circle {
+    display: inline-flex;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    color: #d4d4d4;
+    margin-left: 0px;
+    background: rgb(124 210 251);
+  }
+  .ced-vidaxl-progress-circle span {
+      font-size: 12px;
+      line-height: 12px;
+      position: absolute;
+      margin-top: 60px;
+      float: left;
+      margin-left: -30px;
+      display: none;
+  }
+  .ced-vidaxl-progress-circle.active {
+      color: #fff;
+      background: #0073aa;
+  }
+  .ced-vidaxl-display-tab {
+      display: none;
+  }
+  .ced-vidaxl-display-tab:first-child {
+    display: block;
+  }
+  
+/*Loader*/
+.vidaxl-loader-div{
+  position: relative;
+  display: inline-block;
+}
+.vidaxl-loader-circle {
+  position: absolute;
+    border: 2px solid #fff;
+    border-top: 2px solid #3498db;
+    border-left: 2px solid #3498db;
+    border-bottom: 2px solid #3498db;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    animation: spin 1s linear infinite;
+    bottom: 0px;
+    top: -17px;
+}
+@keyframes spin {
+  0% { 
+    transform: rotate(0deg) scale(0.75); 
+  }
+  100% { 
+    transform: rotate(360deg) scale(0.75); 
+  }
+}
+
+/* Toast message */
+#snackbar {
+  visibility: hidden;
+  min-width: 300px;
+  margin-left: -125px;
+  background-color: rgb(38, 5, 84);
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  bottom: 50px;
+  font-size: 26px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}

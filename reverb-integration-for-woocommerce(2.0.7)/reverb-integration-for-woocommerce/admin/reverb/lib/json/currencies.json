@@ -1,0 +1,12 @@
+{
+  "currencies": [
+    "USD",
+    "CAD",
+    "EUR",
+    "GBP",
+    "AUD",
+    "JPY",
+    "NZD",
+    "MXN"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "conditions": [
+        {
+            "uuid": "7c3f45de-2ae0-4c81-8400-fdb6b1d74890",
+            "display_name": "Brand New"
+        },
+        {
+            "uuid": "ac5b9c1e-dc78-466d-b0b3-7cf712967a48",
+            "display_name": "Mint"
+        },
+        {
+            "uuid": "df268ad1-c462-4ba6-b6db-e007e23922ea",
+            "display_name": "Excellent"
+        },
+        {
+            "uuid": "ae4d9114-1bd7-4ec5-a4ba-6653af5ac84d",
+            "display_name": "Very Good"
+        },
+        {
+            "uuid": "f7a3f48c-972a-44c6-b01a-0cd27488d3f6",
+            "display_name": "Good"
+        },
+        {
+            "uuid": "98777886-76d0-44c8-865e-bb40e669e934",
+            "display_name": "Fair"
+        },
+        {
+            "uuid": "6a9dfcad-600b-46c8-9e08-ce6e5057921e",
+            "display_name": "Poor"
+        },
+        {
+            "uuid": "fbf35668-96a0-4baa-bcde-ab18d6b1b329",
+            "display_name": "Non Functioning"
+        }
+    ]
+}

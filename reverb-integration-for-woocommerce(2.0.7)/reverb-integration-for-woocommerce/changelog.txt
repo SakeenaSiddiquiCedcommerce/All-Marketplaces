@@ -1,0 +1,31 @@
+*** Reverb Integration for WooCommerce  ***
+
+2022-10-14 - version 2.0.5
+* Add - Compatibility with php 8
+* Fix - Order item price issue
+
+2022-03-31 - version 2.0.4
+* Add - WooCommerce active check
+
+2022-03-30 - version 2.0.3
+* Fix - Bug fixes
+
+
+2022-03-23 - version 2.0.2
+* Add - Improved Stability
+
+2021-06-01 - version 2.0.1
+* Add - Auto upload products feature from Woocommerce to Reverb
+* Add - Shipment Tracking plugin compatibility [ will update tracking information automatically to Reverb from Woocommerce ]
+* Fix - Price currency issue in upload process
+
+2021-05-11 - version 2.0.0
+* Add - New Layout 
+* Add - Order Import Settings
+* Add - Reverb label in Woocommerce order list table.
+* Add - Email restrictions to the customer for Reverb order
+* Add - Profiling concept
+* Add - Importer Module [ Import products from Reverb into Woocommerce ]
+
+2020-04-10 - version 1.0.0
+* Inital release

@@ -1,0 +1,7 @@
+*** Multichannel by CedCommerce ***
+
+2023-11-21 - version 1.0.1
+* update - Improved stability
+
+2023-10-10 - version 1.0.0
+* Inital release.

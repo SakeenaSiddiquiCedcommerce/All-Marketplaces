@@ -1,0 +1,171 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .ced-etsy-wcfm-navigation li {
+ 	list-style: none;
+ 	float: left;
+ 	border: 1px transparent;
+ 	margin: 2px;
+ }
+ .ced-etsy-wcfm-navigation {
+ 	margin: 10px 0px;
+ 	display: flex;
+ }
+.ced-etsy-wcfm-navigation a {
+	padding: 5px 10px;
+	font-size: 12px;
+	background-color: #eeeeee;
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px 1px 0 1px;
+}
+.ced-etsy-wcfm-navigation a:hover {
+	background-color: #fff;
+}
+.ced-etsy-wcfm-active {
+	color: #fff;
+	background-color: #17a2b8 !important;
+}
+ .ced-etsy-add-account-wrapper {
+ 	display: none;
+ }
+
+ .ced_etsy_wcfm_parent_element{
+  cursor: pointer;
+}
+
+.ced_etsy_wcfm_parent_element label {
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.ced_etsy_wcfm_child_element{
+  /*display: none;*/
+}
+
+.ced_etsy_wcfm_select_store_category_checkbox , .ced_wcfm_imp_listing_id ,
+.etsy_wcfm_products_id , 
+.etsy_wcfm_profile_id{
+	-webkit-appearance:auto !important;
+}
+
+#ced_wcfm_imp_listing_id{
+ -webkit-appearance:auto !important; 
+}
+
+.ced_etsy_wcfm_loader{
+  display: none;
+}
+
+.ced_etsy_wcfm_loader {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.52);
+  width: 100%;
+  z-index: 9999;
+  height: 108%;
+}
+.ced_etsy_wcfm_loader img {
+  text-align: center;
+  margin: 0 auto;
+  width: 50px;
+  display: block;
+  margin-top: 25%;
+}
+
+.ced_etsy_wcfm_loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.notice.notice-success.ced_etsy_wcfm_notices_content {
+	padding: 5px;
+	border: 1px solid cadetblue;
+	background:floralwhite ;
+	margin-bottom: 5px;
+}
+
+.notice.notice-error.ced_etsy_wcfm_notices_content {
+	padding: 5px;
+	border: 1px solid maroon;
+	background: floralwhite;
+	margin-bottom: 5px;
+}
+.ced-etsy-account-header {
+    background-color: #fff;
+    border-left: 5px solid #17a2b8;
+    padding: 8px 5px 8px;
+    font-size: 16px;
+}
+.ced-wcfm-btn {
+    background-color: #17a2b8 !important;
+    border-radius: 3px !important;
+    padding: 4px 12px !important;
+    color: #fff !important;
+}
+.ced-wcfm-btn .button-primary {
+    color: #fff;
+}
+.ced_etsy_wcfm_schedule_wrap td input, .ced_etsy_wcfm_profile_details_table td input {
+    padding: 2px 5px;
+    width: 100%;
+}
+.ced_etsy_wcfm_schedule_wrap td select, .ced_etsy_wcfm_profile_details_table td select  {
+	padding: 3px 2px;
+	width: 100%;
+}
+.ced_etsy_wcfm_profile_details_table th, .ced_etsy_wcfm_profile_details_table td, .ced_etsy_wcfm_schedule_wrap th, .ced_etsy_wcfm_schedule_wrap td, .ced_etsy_wcfm_store_categories_listing_table th, .ced_etsy_wcfm_store_categories_listing_table td {
+	border-top: 1px solid #eee !important;
+}
+#wcfm-main-contentainer label {
+	color: #555;
+	font-weight: 600;
+}
+.ced_etsy_wcfm_settings_heading , .ced_etsy_wcfm_profile_heading {
+	background-color: #17a2b8 !important;
+}
+.ced_etsy_wcfm_settings_heading .basic_heading , .ced_etsy_wcfm_profile_heading .basic_heading{
+	color: #fff !important;
+}
+.ced_etsy_wcfm_category_not_mapped {
+	color: maroon;
+}
+.ced_etsy_wcfm_category_mapped {
+	color: green;
+}
+.ced-etsy-wcfm-wrapper-main .button-primary,#filter_button {
+	 background-color: #17a2b8 !important;
+    border-radius: 3px !important;
+    padding: 3px 3px !important;
+    color: #fff !important;
+}
+.ced-etsy-wcfm-wrapper-main select {
+	padding: 5px;
+}
+.ced-etsy-add-account-wrapper .ced-etsy-table.wp-list-table.widefat.stripped {
+  border: 1px solid #ccc !important;
+}
+.ced-etsy-account-list .ced-etsy-table.wp-list-table.widefat.stripped {
+  border: 1px solid #ccc !important;
+}
+
+#wcfm-main-contentainer input[type="checkbox"], .wcfm-dashboard-page #wcfm-main-contentainer input[type="checkbox"] {
+    -webkit-appearance: auto !important;
+}
+
+
+
+
+.ced-etsy-wcfm-wrapper-main #ced_esty_wcfm_refresh_page {
+   background-color: #b5bf51 !important;
+    border-radius: 3px !important;
+    padding: 3px 3px !important;
+    color: #fff !important;
+    margin-left: 5px;
+}

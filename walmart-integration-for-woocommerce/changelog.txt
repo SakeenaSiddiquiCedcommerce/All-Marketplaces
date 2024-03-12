@@ -1,0 +1,62 @@
+*** Walmart Integration for Woocommerce Changelog ***
+
+2023-05-01 - version 2.1.5
+* Add - Display partner information in configuration
+
+2023-04-07 - version 2.1.4
+* Update - Optimised product sync process
+
+2023-04-06 - version 2.1.3
+* Add - Improved stability.
+
+2023-01-11 - version 2.1.2
+* Add - Improved stability.
+
+2022-09-12 - version 2.1.1
+* Add - Compatible with latest 4.5 schema of walmart 
+* Add - multiple metakey mapping in profile section 
+
+2022-06-16 - version 2.1.0
+* Update - Orderable specific attributes
+
+2022-06-08 - version 2.0.9
+* Add - Walmart insights feature
+* Add - Product listing quality information
+* Add - Shipping template creation for Walmart
+* Add - WFS support
+* Add - New UI/UX
+
+2022-03-30 - version 2.0.8
+* Fix - Bug fixes
+
+2022-03-23 - version 2.0.7
+* Fix - Sync existing products on basis of sku
+
+2021-10-12 - version 2.0.6
+* Add - New UI
+* Fix - Upload product issue
+
+2020-11-23 - version 2.0.5
+* Add - Improved stability.
+
+2020-06-27 - version 2.0.4
+* Fix - Auto update price and stock from Woocommerce to Walmart
+* Fix - Upload gallery images from Woocommerce to Walmart
+
+2020-05-19 - version 2.0.3
+* Add - Auto update order status in from Walmart to Woocommerce
+
+2020-05-05 - version 2.0.2
+* Add - Order column for Walmart orders
+
+2020-05-02 - version 2.0.1
+* Add - Custom fields in product edit section for Walmart 
+* Fix - Submit shipment
+
+2020-04-14 - version 2.0.0
+* Add - Product validation in upload process.
+* Add - Auto acknowledgement of orders option.
+* Add - Auto profiling
+
+2020-03-09 - version 1.0.0
+* Inital release.
